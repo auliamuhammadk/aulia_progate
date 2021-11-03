@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {margin: 0;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+
+
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: cyan;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: orange;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/**/
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+footer .dua{
+  height: 150px;
+  width: 59%;
+  background-color: orange;
+}
+
+footer .dua .duadalam {
+  
+  background-color: orange;
+  padding: 35px 20px;
+}
+
+footer .dua .duadalam .lidua1 img, .lidua2 img, .lidua3 img {
+  height: 30px;
+  width: 30px;
+
+}
+
+
+
+footer .dua .duadalam{
+  padding-left: 170px;
+}
+
+footer .dua .duadalam  .lidua1,.lidua2,.lidua3 {
+    margin-right: 40px;
+}
+
+footer .con2{
+  width: 100%;
+  height: 40px;
+  background-color: #f1f1f1;
+  margin-top: -16px;
+}
+
+footer .con2 p{
+  padding-top: 10px;
+  text-align: center;
+}
+
+.topnav li img{
+  width: 40px;
+  height: 40px;
+  padding-left: 20px;
+  padding-right: 25px;
+  padding-top: 3px;
+}
+
+.isi {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+
+/**/
+.top-wrapper{
+  padding: 180px 0 100px 0;
+  background-image: url('ilustrasi-baru.png');
+  background-size: cover;
+  text-align: center;
+  color: black;
+}
+.top-wrapper h1{
+  opacity: 0.7;
+  letter-spacing: 5px;
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+.top-wrapper p{
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+.btn-wrapper{
+  margin: 20px 0;
+
+}
+.btn-wrapper p{
+  margin: 10px 0;
+}
+.btn{
+  padding: 12px 24px;
+  color: #fff;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 5px;
+  background-color: green;
+}
+.btn:hover{
+  opacity: 1;
+}
+
+.desc{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 80px;
+  margin-right: 80px;
+  border-top: solid 5px darkgrey;
+  border-bottom: solid 5px darkgrey;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: orange;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 400px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+/**/
+
+
+}
+
+</style>
+</head>
+<body>
+
+<ul class="topnav">
+  <li><img src="home.png"></li>
+  <li><a href="#" class="active">Beranda</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Kursus</a>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </li>
+  <li><a href="#">Layanan</a></li>
+  <li class="right"><a href="#">About</a></li>
+</ul>
+      
+      <div class="top-wrapper">
+      <div class="isi">
+        <h1>Kursus Programming Bandung</h1>
+            <p>Melatih Anda untuk bisa menjadi ahli di berbagai Bidang IT</p><p>Kami menawarkan lingkungan pemrograman yang lengkap untuk mempermudah Anda memulai.</p>
+          <div class="btn-wrapper">
+            <a href="#" class="btn signup">Bergabung</a>
+         </div>
+      </div>
+      </div>
+
+<div class="desc">
+<h2>Bergabunglah bersama kami sekarang juga!</h2>
+<p>Hover over the "Dropdown" link to see the dropdown menu.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+<br><br>
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+<br><br>
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<br><br>
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<br><br>
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<br><br>
+</p>
+</div>
+
+
+
+<footer>
+  <div class="container">
+
+    <ul>
+
+    
+      <li class="dua">
+        <ul class="duadalam">
+          <li class="lidua1"><a href=""><img src="twitter.png"><p>Twitter</p></a></li>
+          <li class="lidua2"><a href=""><img src="whatsapp.png"><p>Whatsapp</p></a></li>
+          <li class="lidua3"><a href=""><img src="youtube.png"><p>Youtube</p></a></li>
+        </ul>
+      </li>
+
+    </ul>
+  </div>
+
+  <div class="con2">
+    <p>all rights reserved. 2021.</p>
+  </div>
+</footer>
+
+</body>
+</html>
+
